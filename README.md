@@ -1,4 +1,5 @@
 ## First of all, please install the all of dependecies using `composer`.
+`composer install`
 
 ## Run Server
 `symfony server:start`
