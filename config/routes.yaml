@@ -5,3 +5,19 @@ controllers:
 kernel:
     resource: ../src/Kernel.php
     type: annotation
+
+triangle:
+    path: /triangle/{a}/{b}/{c}
+    controller: App\Controller\GeometryController::triangle
+
+circle:
+    path: /circle/{radius}
+    controller: App\Controller\GeometryController::circle
+
+sumOfAreas:
+    path: /sum-of-areas
+    controller: App\Controller\GeometryController::calculateSumOfAreasAction
+
+sumOfDiametersAction:
+    path: /sum-of-diameters
+    controller: App\Controller\GeometryController::calculateSumOfDiametersAction
